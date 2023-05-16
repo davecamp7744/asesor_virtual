@@ -22,6 +22,7 @@ html {
 .entrada{
   width: 500px;
   margin-left: 20px;
+  padding: 10px;
   border-color: #03093a;
   border-radius: 5px;
 }
