@@ -1,1 +1,32 @@
+<!DOCTYPE html>
+<html>
 
+<head>
+  <title>Chatbot</title>
+  <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/styles.css') }}">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div class="centrar">
+    <h1>Chatbot</h1>
+    <center>
+      <div class="gift">
+        <img src="../static/gifs/chatbotAnimated.gif" width="200px">
+        <p class="saludo">Hola soy Iztak ¿Como te llamas?</p>
+      </div>
+      <input class="entrada" id="userinput" type="text" name="msg">
+      <button id="btn-enviar" class="enviar" onclick="send()">Enviar</button>
+    </center>
+    <div id="chatbox"></div>
+    <button id="mi-boton" onclick="send_message('Comenzar')" class="custom-btn btn-16">Comenzar</button>
+    <p>Hola, puede comenzar escogiendo una opcion</p>
+      <div id="chat" class="comentarios"></div>
+  </div>
+  <script src="{{ url_for('static', filename='js/main.js') }}"></script>
+</body>
+
+</html>
