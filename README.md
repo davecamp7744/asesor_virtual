@@ -13,3 +13,7 @@ DESPUES CORRER ESTE COMANDO PARA PODER CORRER EL SERVIDOR EN EL NAVEGADOR:
 
 PARA DETENER EL SERVIDOR:
 >IR AL CMD Y ESCRIBIR: CONTROL+C
+
+
+# 💻 DESARROLLADO CON:
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![Flask](https://img.shields.io/badge/flask-%23000.svg?style=for-the-badge&logo=flask&logoColor=white)
